@@ -1,0 +1,25 @@
+
+#navbar{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+    margin-right: 50px;
+}
+input{
+    width: 20%;
+    margin-left: 40%;
+}
+#movies{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
